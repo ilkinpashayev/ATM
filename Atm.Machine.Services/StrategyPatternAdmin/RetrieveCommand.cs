@@ -17,6 +17,7 @@ namespace Atm.Machine.Services.StrategyPatternAdmin
             {
                 Console.WriteLine("Cardnumber= " + item.CardNumber + "|| WithdrawalDate " + item.WithdrawalDate + "|| WithdrawalFeeAmount " + item.WithdrawalFeeAmount);
             }
+            Console.ReadLine();
 
         }
     }

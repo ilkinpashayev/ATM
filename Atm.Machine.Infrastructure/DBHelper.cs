@@ -2,20 +2,22 @@
 using LiteDB;
 using System;
 using System.Linq;
+using System.Configuration;
 
 namespace Atm.Machine.Infrastructure
 {
     public class DBHelper
     {
+        private string DBLocation{ get; set; } 
         public DBHelper()
         {
-
+            DBLocation = ConfigurationManager.AppSettings["LiteDB"];
         }
 
         public void RegisterCard(string cardnumber)
         {
 
-            using (var db = new LiteDatabase(@"c:\temp\MyData.db"))
+            using (var db = new LiteDatabase(DBLocation))
             {
 
                 var _Cardinfo = db.GetCollection<CardInfo>("CardDetail");
@@ -43,7 +45,7 @@ namespace Atm.Machine.Infrastructure
         {
 
             decimal cardbalance = 0;
-            using (var db = new LiteDatabase(@"c:\temp\MyData.db"))
+            using (var db = new LiteDatabase(DBLocation))
             {
 
                 var _Cardinfo = db.GetCollection<CardInfo>("CardDetail");
@@ -66,7 +68,7 @@ namespace Atm.Machine.Infrastructure
         public void SetCardBalance(string cardnumber, decimal withdrawAmount, decimal cardbalance)
         {
 
-            using (var db = new LiteDatabase(@"c:\temp\MyData.db"))
+            using (var db = new LiteDatabase(DBLocation))
             {
 
                 // Get customer collection
@@ -85,7 +87,7 @@ namespace Atm.Machine.Infrastructure
         public void AddFeeHistory(string cardnumber, decimal withdrawlfeeamount)
         {
 
-            using (var db = new LiteDatabase(@"c:\temp\MyData.db"))
+            using (var db = new LiteDatabase(DBLocation))
             {
 
                 var _WithdrawalHistory = db.GetCollection<Fee>("WithdrawalHistory");

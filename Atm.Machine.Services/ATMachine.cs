@@ -121,7 +121,7 @@ namespace Atm.Machine.Services
         {
             try
             {
-                DBHelperBackend _dbhelper = new DBHelperBackend();
+                DBHelperAdmin _dbhelper = new DBHelperAdmin();
                 _dbhelper.LoadMoney(this._serialnumber, this._manufacturer, money);
                 _atmexecutestatus = ATMExecuteStatus.DONE;
             }
@@ -134,7 +134,7 @@ namespace Atm.Machine.Services
         public IEnumerable<Fee> RetriveChargedFees()
         {
             IEnumerable<Fee> _return ;
-            DBHelperBackend _dbhelper = new DBHelperBackend();
+            DBHelperAdmin _dbhelper = new DBHelperAdmin();
             _return = _dbhelper.GetWithdralFeeHistory();
             return _return;
         }

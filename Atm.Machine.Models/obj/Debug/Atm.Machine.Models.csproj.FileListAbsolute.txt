@@ -18,3 +18,4 @@ D:\ilkin\projects\R\core\ATM\Atm.Machine.Models\obj\Debug\Atm.Machine.Models.csp
 D:\ilkin\projects\R\core\ATM\Atm.Machine.Models\obj\Debug\Atm.Machine.Models.csproj.CopyComplete
 D:\ilkin\projects\R\core\ATM\Atm.Machine.Models\obj\Debug\Atm.Machine.Models.dll
 D:\ilkin\projects\R\core\ATM\Atm.Machine.Models\obj\Debug\Atm.Machine.Models.pdb
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Models\obj\Debug\Atm.Machine.Models.csprojAssemblyReference.cache

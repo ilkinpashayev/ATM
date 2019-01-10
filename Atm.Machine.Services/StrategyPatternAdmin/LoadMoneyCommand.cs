@@ -50,10 +50,12 @@ namespace Atm.Machine.Services.StrategyPatternAdmin
                     _money.Notes = _papernotes;
                     _money.Amount = total;
                     container.Resolve<IATMachine>().LoadMoney(_money);
+                    Console.ReadLine();
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
+                    Console.ReadLine();
                 }
             }
         }
