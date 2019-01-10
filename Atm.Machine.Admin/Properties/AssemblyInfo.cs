@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Atm.Machine.Migration")]
+[assembly: AssemblyTitle("Atm.Machine.Backend")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Atm.Machine.Migration")]
+[assembly: AssemblyProduct("Atm.Machine.Backend")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("076c32eb-8fd1-4d9c-8981-af679ff9bdff")]
+[assembly: Guid("24a776a7-dfeb-4ca6-ba9b-c2be5b96ce00")]
 
 // Version information for an assembly consists of the following four values:
 //
