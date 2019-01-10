@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Machine.App", "Atm.Machine.App\Atm.Machine.App.csproj", "{4E710655-3512-407C-B04A-299E6D12F72E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Machine.Tests", "Atm.Machine.Tests\Atm.Machine.Tests.csproj", "{DAC4D1FC-1433-4781-9199-6892C289AD0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Machine.Services", "Atm.Machine.Services\Atm.Machine.Services.csproj", "{8644BE36-E447-444D-A2D3-0685511E3A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Machine.Infrastructure", "Atm.Machine.Infrastructure\Atm.Machine.Infrastructure.csproj", "{A2339EEA-58B7-4394-9D2A-E007B8AFAC43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Machine.Models", "Atm.Machine.Models\Atm.Machine.Models.csproj", "{B0C9F66A-DB01-407F-A633-3190C153371D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Machine.Admin", "Atm.Machine.Backend\Atm.Machine.Admin.csproj", "{24A776A7-DFEB-4CA6-BA9B-C2BE5B96CE00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E710655-3512-407C-B04A-299E6D12F72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E710655-3512-407C-B04A-299E6D12F72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E710655-3512-407C-B04A-299E6D12F72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E710655-3512-407C-B04A-299E6D12F72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC4D1FC-1433-4781-9199-6892C289AD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC4D1FC-1433-4781-9199-6892C289AD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC4D1FC-1433-4781-9199-6892C289AD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC4D1FC-1433-4781-9199-6892C289AD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8644BE36-E447-444D-A2D3-0685511E3A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8644BE36-E447-444D-A2D3-0685511E3A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8644BE36-E447-444D-A2D3-0685511E3A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8644BE36-E447-444D-A2D3-0685511E3A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2339EEA-58B7-4394-9D2A-E007B8AFAC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2339EEA-58B7-4394-9D2A-E007B8AFAC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2339EEA-58B7-4394-9D2A-E007B8AFAC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2339EEA-58B7-4394-9D2A-E007B8AFAC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C9F66A-DB01-407F-A633-3190C153371D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C9F66A-DB01-407F-A633-3190C153371D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C9F66A-DB01-407F-A633-3190C153371D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C9F66A-DB01-407F-A633-3190C153371D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A776A7-DFEB-4CA6-BA9B-C2BE5B96CE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A776A7-DFEB-4CA6-BA9B-C2BE5B96CE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A776A7-DFEB-4CA6-BA9B-C2BE5B96CE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A776A7-DFEB-4CA6-BA9B-C2BE5B96CE00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CC4AF05-AED8-4797-9214-B66241B1DC0E}
+	EndGlobalSection
+EndGlobal

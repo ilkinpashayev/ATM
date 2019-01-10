@@ -1,0 +1,12 @@
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\bin\Debug\Atm.Machine.Infrastructure.dll.config
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\bin\Debug\Atm.Machine.Infrastructure.dll
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\bin\Debug\Atm.Machine.Infrastructure.pdb
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\bin\Debug\Atm.Machine.Models.dll
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\bin\Debug\LiteDB.dll
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\bin\Debug\Atm.Machine.Models.pdb
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\bin\Debug\LiteDB.xml
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\obj\Debug\Atm.Machine.Infrastructure.csprojAssemblyReference.cache
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\obj\Debug\Atm.Machine.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\obj\Debug\Atm.Machine.Infrastructure.csproj.CopyComplete
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\obj\Debug\Atm.Machine.Infrastructure.dll
+D:\ilkin\projects\R\core\ATM\Atm.Machine.Infrastructure\obj\Debug\Atm.Machine.Infrastructure.pdb
